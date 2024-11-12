@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+    <audio id="myAudio">
+        <source src="case.ogg" type="audio/ogg">
+        <source src="case.mp3" type="audio/mpeg">
+    </audio>
+    <div class="background">
+        <div class="main-app-container">
+            <div class="main-container-back">
+                <div class="main-border" style="visibility: visible;">
+                    <div class="raffle-roller" style="display: flex;">
+                        <div class="right-holder"></div>
+                        <div class="raffle-roller-holder">
+                            <div class="raffle-roller-container" style="margin-left: 0px;">
+                                <div class="item-common rare-level-3"><div id="CardNumber'+i+'" class="item class_red_item" style="margin-left: 0.0023%; background-image:url('./item-icons/np_karambit_2.png');"></div></div>
+                                <div class="item-common rare-level-4"><div id="CardNumber'+i+'" class="item class_red_item" style="background-image:url('./item-icons/np_karambit_3.png');"></div></div>
+                                <div class="item-common rare-level-5"><div id="CardNumber'+i+'" class="item class_red_item" style="background-image:url('./item-icons/np_karambit_1.png');"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br><br>
+                    <div class="go-button">
+                        <button onclick="generate(1);">SPIN</button>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="itemList.js"></script>
+</body>
+</html>
