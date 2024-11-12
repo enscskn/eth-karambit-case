@@ -6,13 +6,13 @@ This script is a karambit case opening system developed for the FiveM QBCore fra
 
 - [YouTube](https://youtu.be/hhUI47YqbCo?si=uFmsOc6i2LzaEXLB)
 
-## Özellikler
+## Features
 
 - Animated case opening system
 - 5 different rarity levels of skins
 - Sound effects
 
-## Kurulum
+## Installation
 
 1. Copy the files to the `resources` folder
 2. Add the following line to `server.cfg` file:
