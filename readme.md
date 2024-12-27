@@ -1,6 +1,6 @@
 # QBCore Karambit Case Opening System
 
-This script is a karambit case opening system developed for the FiveM QBCore framework. Players can earn karambit knives in different skins by opening cases.
+This script is a karambit case opening system developed for the FiveM QBCore framework. Players can earn karambit knives in different skins by opening cases. (Inspired by NoPixel)
 
 ## Preview
 
